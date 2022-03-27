@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Clase 2 -Programacion 3</title>
+</head>
+<body>
+    <form action="/" method="post">
+         Reserva de viajes <br>
+        <br> Fecha de viaje <br>
+        <input type="date" name="fecha" id="fecha" min="2022-03-10" max="2022-03-27">
+        
+        <br> Nombre: <br>
+        <input type="text" placeholder="Ingrese Nombre" name="nombre" >
+        <br>Apellido: <br>
+        <input type="text" placeholder="Ingrese Apellido" name="apellido" >
+
+        <br> Ingrese su numero de cliente <br>
+        <input type="number" name="numero" id="numero" min="10" max="100"> 
+        
+
+        <br><br> Seleccionar Provincia <br>
+        <select name="Provinvia" id="provinvia">
+            <option value="">Seleccione...</option>
+            <option value="1">Cordoba</option>
+            <option value="2">Santa Fe</option> 
+        </select> <br>
+
+        <br>Seleccione Forma de pago <br>
+        <input type="radio" name="pago" id="pago" value="1">Debito <br>
+        <input type="radio" name="pago" id="pago" value="2">Credito <br>
+        <input type="radio" name="pago" id="pago" value="3" checked>QR <br>
+
+        <br> Servicios Extras <br>
+        <input type="checkbox" name="servicio" id="servicio" > Desayuno <br>
+        <input type="checkbox" name="servicio" id="servicio"> Almuerzo <br>
+        <input type="checkbox" name="servicio" id="servicio"> Cena <br>
+ 
+
+        <br> Ingrese su Comentario <br>
+        <textarea style="resize: none;" name="comentario" id="comentario" cols="30" rows="5" placeholder="Ingrese su Comentario ...."></textarea> <br>
+
+        <button type="submit">Registrarse</button>
+        <button type="reset">Restablecer</button>
+
+    </form>
+    
+</body>
+</html>

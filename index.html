@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Clase 2 -Programacion 3</title>
+</head>
+<body>
+    <form action="/" method="post">
+        Nombre: <br>
+        <input type="text" placeholder="Ingrese Nombre" name="nombre" >
+        <br>Apellido: <br>
+        <input type="text" placeholder="Ingrese Apellido" name="apellido" >
+        <br>Seleccione Genero <br>
+        <input type="radio" name="genero" id="genero" value="1">Masculino <br>
+        <input type="radio" name="genero" id="genero" value="2">Femenimo <br>
+        <input type="radio" name="genero" id="genero" value="3" checked>Prefiero no contestar <br>
+        <br> Intereses <br>
+        <input type="checkbox" name="intereses" id="intereses" checked> Deportes <br>
+        <input type="checkbox" name="intereses" id="intereses"> Peliculas <br>
+        <input type="checkbox" name="intereses" id="intereses"> Series <br>
+        <br> Fecha nacimiento <br>
+        <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" min="2022-03-10" max="2022-03-27">
+        <br><br> Seleccionar Provincia <br>
+        <select name="Provinvia" id="provinvia">
+            <option value="">Seleccione...</option>
+            <option value="1">Cordoba</option>
+            <option value="2">Santa Fe</option>
+        </select> <br>
+        <br> Ingrese su Comentario <br>
+        <textarea style="resize: none;" name="comentario" id="comentario" cols="30" rows="5" placeholder="Ingrese su Comentario ...."></textarea> <br>
+        <br> Ingrese su numero <br>
+        <input type="number" name="numero" id="numero" min="10" max="100"> <br>
+        <br>
+        <button type="submit">Registrarse</button>
+        <button type="reset">Restablecer</button>
+
+
+    </form>
+    
+</body>
+</html>

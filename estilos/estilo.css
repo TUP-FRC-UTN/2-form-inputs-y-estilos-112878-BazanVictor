@@ -1,0 +1,52 @@
+ /* estilos por defecto*/
+        *{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 16px;
+        }
+        p{
+            
+            font-size: large; 
+            color:black; 
+            background-color: cyan;
+        }
+        h1{
+            color: tomato;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        .parrafo-negrita{
+            font-weight: bold;
+            font-size: large;
+
+        }
+        #parrafo-id{
+            border: 5px solid red;
+            font-size: small;
+        }
+        /*grupo de selectores*/
+        p,
+        .parrafo-negrita,
+        #parrafo-id{
+            border: 10px solid green;
+        }
+
+        span{
+            font-size: px;
+            font-weight: 100;
+
+        }
+        /* selector para todo elemento dentro de <p> sin importar jeraquia*/
+        p span{
+            color: white;
+        } 
+        /* selector para elementos subsiguientes*/
+        p+span{
+            color: pink;
+        } 
+        /* selector para elementos anidadosos en el primer nivel de jeraquia*/
+        p>span{
+             color: blueviolet;
+         }
+         p>span{
+            color:red  ;
+        }

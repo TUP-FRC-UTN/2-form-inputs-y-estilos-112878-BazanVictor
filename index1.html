@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/estilos/estilo.css">
+    <title>Clase 2 - Programacion 3 - Estilos</title>
+
+   <!--<style>
+        /* estilos por defecto*/
+        *{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 16px;
+        }
+        p{
+            
+            font-size: large; 
+            color:black; 
+            background-color: cyan;
+        }
+        h1{
+            color: tomato;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        .parrafo-negrita{
+            font-weight: bold;
+            font-size: large;
+
+        }
+        #parrafo-id{
+            border: 5px solid red;
+            font-size: small;
+        }
+        /*grupo de selectores*/
+        p,
+        .parrafo-negrita,
+        #parrafo-id{
+            border: 10px solid green;
+        }
+
+        span{
+            font-size: px;
+            font-weight: 100;
+
+        }
+        /* selector para todo elemento dentro de <p> sin importar jeraquia*/
+        p span{
+            color: white;
+        } 
+        /* selector para elementos subsiguientes*/
+        p+span{
+            color: pink;
+        } 
+        /* selector para elementos anidadosos en el primer nivel de jeraquia*/
+        p>span{
+             color: blueviolet;
+         }
+
+    </style>   --> 
+</head>
+<body>
+    
+    <h1 >Estilos</h1>
+    <span>SUBTITULO</span>
+
+    <p style="font-family: Arial, Helvetica, sans-serif; font-size: large; color: brown; background-color: blue;">
+        Es un hecho establecido desde hace mucho tiempo que un lector 
+        se distraerá con el contenido legible de una página cuando mire
+         su diseño. El punto de usar Lorem Ipsum es que tiene una distribución
+          de letras más o menos normal, en lugar de usar 'Contenido aquí, 
+          contenido aquí', lo que hace que parezca un inglés legible. 
+          Muchos paquetes de autoedición y editores de páginas web ahora usan 
+          Lorem Ipsum como su modelo de texto predeterminado, y una búsqueda 
+          de 'lorem ipsum' descubrirá muchos sitios web que aún están en su 
+          infancia. Varias versiones han evolucionado a lo largo de los años, 
+          a veces por accidente, a veces a propósito (humor inyectado 
+          y cosas por el estilo).
+    </p>
+    <h1 class="parrafo-negrita">Estilos negrita</h1> 
+
+    <p class="parrafo-negrita"> <span>   Es un hecho establecido desde hace mucho tiempo que un lector 
+        se distraerá  <i>con el contenido legible de una página </i>cuando mire
+         su diseño.  </span>
+         El punto de usar Lorem Ipsum es que tiene una distribución
+          de letras más o menos normal, en lugar de usar 'Contenido aquí, 
+          contenido aquí', lo que hace que parezca un inglés legible. 
+          Muchos paquetes de autoedición y editores de páginas web ahora usan 
+          Lorem Ipsum como su modelo de texto predeterminado, y una búsqueda 
+          de 'lorem ipsum' descubrirá muchos sitios web que aún están en su 
+          infancia. <strong><span>Varias versiones han evolucionado a lo largo de los años, 
+          a veces por accidente, a veces a propósito (humor inyectado 
+          y cosas por el estilo).</span></strong>
+    </p>
+    <SPan>OTRO SPAN</SPan>
+    
+    <p class="parrafo-negrita" id="parrafo-id">
+        Es un hecho establecido desde hace mucho tiempo que un lector 
+        se distraerá con el contenido legible de una página cuando mire
+         su diseño. El punto de usar Lorem Ipsum es que tiene una distribución
+          de letras más o menos normal, en lugar de usar 'Contenido aquí, 
+          contenido aquí', lo que hace que parezca un inglés legible. 
+          Muchos paquetes de autoedición y editores de páginas web ahora usan 
+          Lorem Ipsum como su modelo de texto predeterminado, y una búsqueda 
+          de 'lorem ipsum' descubrirá muchos sitios web que aún están en su 
+          infancia. Varias versiones han evolucionado a lo largo de los años, 
+          a veces por accidente, a veces a propósito (humor inyectado 
+          y cosas por el estilo).
+    </p>
+    
+</body>
+</html>
